@@ -1,0 +1,5 @@
+PyQt6>=6.5
+markdown-it-py>=3.0
+mdit-py-plugins>=0.4
+Pygments>=2.15
+pyinstaller>=6.0
