@@ -56,6 +56,13 @@ pip install -r requirements.txt
 python main.py examples/demo.md
 ```
 
+运行测试：
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest
+```
+
 ## 编译 exe
 
 ```bash
@@ -91,8 +98,13 @@ mdreader/
   themes.py             浅色 / 深色配色
   icon.py               程序图标（代码绘制）
 tools/make_assets.py    生成 assets/app.ico 和示例图片
+tests/                  pytest 测试 (无界面运行)
 examples/demo.md        演示文档（表格、图片、代码等）
 ```
+
+## 参与开发
+
+维护者 / AI agent 请先阅读 [AGENTS.md](AGENTS.md)：架构、渲染限制、容易踩的坑、测试与发布流程。
 
 ## 说明
 
